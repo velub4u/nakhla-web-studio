@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F3D2E"/>
+      <stop offset="50%" stop-color="#144C39"/>
+      <stop offset="100%" stop-color="#1E654C"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#E8D9B5"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base with subtle grid pattern -->
+  <rect width="600" height="400" fill="url(#bgGrad)"/>
+  <circle cx="520" cy="80" r="160" fill="#C9A227" opacity="0.07"/>
+  <circle cx="80" cy="340" r="120" fill="#E8D9B5" opacity="0.05"/>
+
+  <!-- Browser/Device Window Frame -->
+  <g transform="translate(40, 30)" filter="url(#cardShadow)">
+    <rect width="520" height="340" rx="16" fill="#FAF7F0"/>
+    <!-- Browser Top Bar -->
+    <rect width="520" height="38" rx="16" fill="#F0ECE1"/>
+    <rect y="22" width="520" height="16" fill="#F0ECE1"/>
+    <!-- Window dots -->
+    <circle cx="24" cy="19" r="5" fill="#E08B7B"/>
+    <circle cx="40" cy="19" r="5" fill="#E8C372"/>
+    <circle cx="56" cy="19" r="5" fill="#78B991"/>
+    <!-- URL Bar -->
+    <rect x="80" y="10" width="360" height="18" rx="9" fill="#FFFFFF" stroke="#E3D8C3" stroke-width="1"/>
+    <text x="260" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#8C867A" text-anchor="middle">example-dental-clinic.kw • Bilingual Demo</text>
+
+    <!-- Mockup Content: Dental Clinic -->
+    <rect x="25" y="55" width="470" height="120" rx="10" fill="#0F3D2E"/>
+    <!-- Badge -->
+    <rect x="45" y="70" width="105" height="20" rx="10" fill="#C9A227"/>
+    <text x="97" y="84" font-family="'Poppins', sans-serif" font-size="9" font-weight="700" fill="#0F3D2E" text-anchor="middle">SAMPLE DESIGN</text>
+
+    <!-- Clinic Headline -->
+    <text x="45" y="112" font-family="'Poppins', sans-serif" font-size="18" font-weight="700" fill="#FAF7F0">Dental &amp; Medical Clinic</text>
+    <text x="45" y="132" font-family="'Cairo', sans-serif" font-size="13" font-weight="600" fill="#E8D9B5">عيادة أسنان وطب تخصصي</text>
+    <text x="45" y="152" font-family="'Poppins', sans-serif" font-size="10" fill="#E8D9B5" opacity="0.9">Online Bookings • WhatsApp Direct • Google Maps Kuwait</text>
+
+    <!-- 3 Mini Feature Cards -->
+    <g transform="translate(25, 190)">
+      <!-- Card 1 -->
+      <rect width="145" height="115" rx="8" fill="#FFFFFF" stroke="#E3D8C3" stroke-width="1"/>
+      <rect x="15" y="15" width="30" height="30" rx="6" fill="#EBF3EF"/>
+      <path d="M25,30 C25,24 35,24 35,30 C35,36 25,36 25,30 Z" stroke="#0F3D2E" stroke-width="2" fill="none"/>
+      <text x="15" y="65" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" fill="#1C1C1C">Doctor Profiles</text>
+      <text x="15" y="82" font-family="'Cairo', sans-serif" font-size="10" fill="#5A625E">سيرة الأطباء والخبرات</text>
+      <rect x="15" y="94" width="70" height="4" rx="2" fill="#C9A227"/>
+
+      <!-- Card 2 -->
+      <g transform="translate(162, 0)">
+        <rect width="145" height="115" rx="8" fill="#FFFFFF" stroke="#E3D8C3" stroke-width="1"/>
+        <rect x="15" y="15" width="30" height="30" rx="6" fill="#FBF3DE"/>
+        <circle cx="30" cy="30" r="8" stroke="#C9A227" stroke-width="2" fill="none"/>
+        <text x="15" y="65" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" fill="#1C1C1C">Service Pricing</text>
+        <text x="15" y="82" font-family="'Cairo', sans-serif" font-size="10" fill="#5A625E">قائمة الخدمات والباقات</text>
+        <rect x="15" y="94" width="70" height="4" rx="2" fill="#0F3D2E"/>
+      </g>
+
+      <!-- Card 3 -->
+      <g transform="translate(325, 0)">
+        <rect width="145" height="115" rx="8" fill="#0F3D2E"/>
+        <rect x="15" y="15" width="30" height="30" rx="6" fill="#1B5E43"/>
+        <path d="M23,30 L28,35 L37,25" stroke="#C9A227" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <text x="15" y="65" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">1-Click Booking</text>
+        <text x="15" y="82" font-family="'Cairo', sans-serif" font-size="10" fill="#E8D9B5">حجز فوري عبر واتساب</text>
+        <rect x="15" y="94" width="70" height="4" rx="2" fill="#C9A227"/>
+      </g>
+    </g>
+  </g>
+</svg>

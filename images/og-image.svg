@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ogGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F3D2E"/>
+      <stop offset="70%" stop-color="#0A2A1F"/>
+      <stop offset="100%" stop-color="#144C39"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8D9B5"/>
+      <stop offset="100%" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#ogGrad)"/>
+  <circle cx="1050" cy="150" r="320" fill="#C9A227" opacity="0.08"/>
+  <circle cx="150" cy="500" r="240" fill="#E8D9B5" opacity="0.05"/>
+
+  <!-- Border line -->
+  <rect x="40" y="40" width="1120" height="550" rx="24" fill="none" stroke="#C9A227" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- Logo Mark -->
+  <g transform="translate(100, 100)">
+    <rect width="72" height="72" rx="18" fill="#144C39" stroke="#C9A227" stroke-width="2"/>
+    <g transform="translate(36, 38) scale(0.55)">
+      <path d="M0,45 C-1,10 -3,-20 0,-42 C3,-20 1,10 0,45 Z" fill="#C9A227"/>
+      <path d="M-1,-32 C-15,-34 -32,-25 -40,-12 C-32,-16 -18,-18 -2,-24 Z" fill="#FAF7F0"/>
+      <path d="M-2,-18 C-20,-18 -38,-6 -44,10 C-35,3 -20,1 -2,-9 Z" fill="#C9A227"/>
+      <path d="M-1,-4 C-20,-2 -36,12 -38,28 C-30,19 -16,14 -1,3 Z" fill="#FAF7F0"/>
+      <path d="M1,-32 C15,-34 32,-25 40,-12 C32,-16 18,-18 2,-24 Z" fill="#FAF7F0"/>
+      <path d="M2,-18 C20,-18 38,-6 44,10 C35,3 20,1 2,-9 Z" fill="#C9A227"/>
+      <path d="M1,-4 C20,-2 36,12 38,28 C30,19 16,14 1,3 Z" fill="#FAF7F0"/>
+    </g>
+    <text x="92" y="48" font-family="'Poppins', sans-serif" font-size="34" font-weight="700" fill="#FAF7F0">Nakhla Web Studio</text>
+    <text x="94" y="70" font-family="'Cairo', sans-serif" font-size="20" font-weight="600" fill="#E8D9B5">نخلة ويب ستوديو • استوديو تصميم المواقع في الكويت</text>
+  </g>
+
+  <!-- Tagline / Headline -->
+  <text x="100" y="270" font-family="'Poppins', sans-serif" font-size="46" font-weight="800" fill="#FAF7F0" width="1000">
+    Your business deserves a website
+  </text>
+  <text x="100" y="330" font-family="'Poppins', sans-serif" font-size="46" font-weight="800" fill="#C9A227">
+    as good as your service.
+  </text>
+
+  <text x="100" y="400" font-family="'Cairo', sans-serif" font-size="28" font-weight="600" fill="#E8D9B5">
+    مواقع إلكترونية عصرية ثنائية اللغة (عربي وإنجليزي) لمشاريع الكويت
+  </text>
+
+  <!-- Key Badges -->
+  <g transform="translate(100, 470)">
+    <rect width="280" height="50" rx="25" fill="#144C39" stroke="#C9A227" stroke-width="1.5"/>
+    <text x="140" y="32" font-family="'Poppins', sans-serif" font-size="16" font-weight="600" fill="#FAF7F0" text-anchor="middle">✨ Free Sample First</text>
+
+    <g transform="translate(300, 0)">
+      <rect width="260" height="50" rx="25" fill="#144C39" stroke="#E8D9B5" stroke-width="1"/>
+      <text x="130" y="32" font-family="'Poppins', sans-serif" font-size="16" font-weight="600" fill="#FAF7F0" text-anchor="middle">🇰🇼 Kuwait Local Focus</text>
+    </g>
+
+    <g transform="translate(580, 0)">
+      <rect width="280" height="50" rx="25" fill="#C9A227"/>
+      <text x="140" y="32" font-family="'Poppins', sans-serif" font-size="16" font-weight="700" fill="#0F3D2E" text-anchor="middle">💬 Direct WhatsApp Inquiry</text>
+    </g>
+  </g>
+</svg>

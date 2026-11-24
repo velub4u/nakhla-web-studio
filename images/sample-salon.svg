@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="salonBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2E24"/>
+      <stop offset="50%" stop-color="#2D281E"/>
+      <stop offset="100%" stop-color="#0F3D2E"/>
+    </linearGradient>
+    <filter id="cardShadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#salonBg)"/>
+  <circle cx="480" cy="120" r="140" fill="#E8D9B5" opacity="0.08"/>
+  <circle cx="100" cy="280" r="130" fill="#C9A227" opacity="0.06"/>
+
+  <!-- Device Window -->
+  <g transform="translate(40, 30)" filter="url(#cardShadow2)">
+    <rect width="520" height="340" rx="16" fill="#FAF7F0"/>
+    <!-- Top Bar -->
+    <rect width="520" height="38" rx="16" fill="#F0ECE1"/>
+    <rect y="22" width="520" height="16" fill="#F0ECE1"/>
+    <!-- Window dots -->
+    <circle cx="24" cy="19" r="5" fill="#E08B7B"/>
+    <circle cx="40" cy="19" r="5" fill="#E8C372"/>
+    <circle cx="56" cy="19" r="5" fill="#78B991"/>
+    <!-- URL Bar -->
+    <rect x="80" y="10" width="360" height="18" rx="9" fill="#FFFFFF" stroke="#E3D8C3" stroke-width="1"/>
+    <text x="260" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#8C867A" text-anchor="middle">example-salon-spa.kw • Bilingual Demo</text>
+
+    <!-- Salon Hero Banner -->
+    <rect x="25" y="55" width="470" height="120" rx="10" fill="#231F1C"/>
+    <!-- Badge -->
+    <rect x="45" y="70" width="105" height="20" rx="10" fill="#C9A227"/>
+    <text x="97" y="84" font-family="'Poppins', sans-serif" font-size="9" font-weight="700" fill="#1C1C1C" text-anchor="middle">SAMPLE DESIGN</text>
+
+    <text x="45" y="112" font-family="'Poppins', sans-serif" font-size="18" font-weight="700" fill="#FAF7F0">Beauty Salon &amp; Spa</text>
+    <text x="45" y="132" font-family="'Cairo', sans-serif" font-size="13" font-weight="600" fill="#E8D9B5">صالون تجميل وسبا فاخر</text>
+    <text x="45" y="152" font-family="'Poppins', sans-serif" font-size="10" fill="#E8D9B5" opacity="0.9">Treatment Packages • Specialist Portfolios • Instagram Sync</text>
+
+    <!-- 3 Mini Feature Cards -->
+    <g transform="translate(25, 190)">
+      <rect width="145" height="115" rx="8" fill="#FFFFFF" stroke="#E3D8C3" stroke-width="1"/>
+      <rect x="15" y="15" width="30" height="30" rx="6" fill="#FDF3EE"/>
+      <circle cx="30" cy="30" r="7" stroke="#C9A227" stroke-width="2" fill="none"/>
+      <text x="15" y="65" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" fill="#1C1C1C">Hair &amp; Nails Menu</text>
+      <text x="15" y="82" font-family="'Cairo', sans-serif" font-size="10" fill="#5A625E">خدمات العناية والتصفيف</text>
+      <rect x="15" y="94" width="70" height="4" rx="2" fill="#0F3D2E"/>
+
+      <g transform="translate(162, 0)">
+        <rect width="145" height="115" rx="8" fill="#FFFFFF" stroke="#E3D8C3" stroke-width="1"/>
+        <rect x="15" y="15" width="30" height="30" rx="6" fill="#EBF3EF"/>
+        <path d="M22,30 L27,35 L38,24" stroke="#0F3D2E" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <text x="15" y="65" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" fill="#1C1C1C">Bridal Packages</text>
+        <text x="15" y="82" font-family="'Cairo', sans-serif" font-size="10" fill="#5A625E">باقات العرائس والمناسبات</text>
+        <rect x="15" y="94" width="70" height="4" rx="2" fill="#C9A227"/>
+      </g>
+
+      <g transform="translate(325, 0)">
+        <rect width="145" height="115" rx="8" fill="#0F3D2E"/>
+        <rect x="15" y="15" width="30" height="30" rx="6" fill="#1B5E43"/>
+        <circle cx="30" cy="30" r="6" fill="#C9A227"/>
+        <text x="15" y="65" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Direct WhatsApp</text>
+        <text x="15" y="82" font-family="'Cairo', sans-serif" font-size="10" fill="#E8D9B5">تأكيد الموعد بلحظات</text>
+        <rect x="15" y="94" width="70" height="4" rx="2" fill="#C9A227"/>
+      </g>
+    </g>
+  </g>
+</svg>
